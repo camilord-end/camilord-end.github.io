@@ -8,27 +8,79 @@
     <script src="https://kit.fontawesome.com/d588b51202.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav id="navbar" class="navbar navbar-dark bg-dark">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <li class="nav-item">
-          <a class="nav-link" href="#about">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#work">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Link</a>
-        </li>
-      </div>
-    </nav>
+
+    <header id="header">
+      <nav id="navbar" class="nav">
+        <a class="nav-link" href="#welcome-section">Informacion</a>
+        <a class="nav-link" href="#projects">Proyectos</a>
+        <a class="nav-link" href="#contact">Contacto</a>
+      </nav>
+    </header>
+
     <section id="welcome-section">
       <h1>Hola, Soy Julian Orozco</h1>
-      <p>A web developer</p>
+      <p>Un desarrollador web</p>
     </section>
-    <section id="projects">
-      <h2>These are some of my projects</h2>
-      <div class="project-tile">
 
+    <section id="projects">
+      <h2>Estos son algunos de mis projectos</h2>
+      <div class="card-group">
+        <div class="card project-tile border-info mb-3">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body text-info">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+          </div>
+        </div>
+        <div class="card project-tile border-info mb-3">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body text-info">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+          </div>
+        </div>
+        <div class="card project-tile border-info mb-3">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body text-info">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+          </div>
+        </div>
+        <div class="card project-tile border-info mb-3">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body text-info">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROJECT-GRID -->
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Trabajemos Juntos</h2>
+      </div>
+      <div class="contact-links">
+        <a id="profile-link" href="https://github.com/camilord-end" target="_blank" class="btn contact-details">
+          <i class="fab fa-github"></i> GitHub</a>
+        <a href="https://twitter.com/camilorozco" target="_blank" class="btn contact-details">
+          <i class="fab fa-twitter"></i> Twitter</a>
+        <a href="mailto:jcorozcoa@correo.udistrital.edu.co" class="btn contact-details">
+          <i class="fas fa-at"></i> Enviame un correo</a>
+        <a href="tel:312-499-0523" class="btn contact-details">
+          <i class="fas fa-mobile-alt"></i> Llamame</a>
       </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
